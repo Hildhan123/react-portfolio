@@ -24,7 +24,7 @@ const Minibar = () => {
                     </li>
                     <li class="menu-item">
                         <a href="#services" class="menu-link">
-                            <span class="icon ti-file"></span>
+                            <span class="icon ti-layout"></span>
                             <span class="caption">Service</span>
                         </a>
                     </li>
@@ -32,6 +32,12 @@ const Minibar = () => {
                         <a href="#portfolio" class="menu-link">
                             <span class="icon ti-briefcase"></span>
                             <span class="caption">Portfolio</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#certificate" class="menu-link">
+                            <span class="icon ti-bookmark"></span>
+                            <span class="caption">Certificate</span>
                         </a>
                     </li>
                     <li class="menu-item">

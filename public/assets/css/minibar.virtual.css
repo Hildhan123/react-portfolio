@@ -428,6 +428,33 @@
     box-shadow: none;
 }
 
+/* Certificate */
+.page-certificate {
+    background-color: #171925;
+    color: #9FA2AB;
+}
+
+.page-certificate .card {
+    margin: 32px 0;
+    background-color: #202334;
+}
+
+.page-certificate .card .iconic {
+    font-size: 40px;
+    color: #fff;
+}
+
+.page-certificate .card .btn-theme {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -24px;
+    margin: auto;
+    padding: 10px 24px;
+    width: 140px;
+    box-shadow: none;
+}
+
 /* Blog */
 /* Blog list */
 .post-grid {
