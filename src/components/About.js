@@ -62,13 +62,13 @@ const About = () => {
             <div className="progress-wrapper wow fadeInUp">
               <span className="caption">English  </span><img src="https://img.icons8.com/doodle/20/000000/great-britain.png"/>
               <div className="progress">
-                <div className="progress-bar" role="progressbar" style={{ width: '80%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">80%</div>
+                <div className="progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">85%</div>
               </div>
             </div>
             <div className="progress-wrapper wow fadeInUp">
               <span className="caption">Japanese  </span><img src="https://img.icons8.com/color/20/000000/japan.png"/>
               <div className="progress">
-                <div className="progress-bar" role="progressbar" style={{ width: '20%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">20%</div>
+                <div className="progress-bar" role="progressbar" style={{ width: '40%' }} aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">40%</div>
               </div>
             </div>
           </div>
