@@ -26,7 +26,7 @@ export default function Gallery() {
   }, [visiblePhotos]);
 
   return (
-    <div className="vg-page page-certificate" id="certificate">
+    <section className="vg-page page-certificate" id="certificate">
       <h1 className="text-center wow fadeInUp">All Certificates</h1>
       <div className="text-center wow fadeInUp">
           <div className="badge badge-subhead">*From new to old</div>
@@ -69,6 +69,6 @@ export default function Gallery() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

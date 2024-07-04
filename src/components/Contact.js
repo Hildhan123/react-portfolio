@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="vg-page page-contact" id="contact">
+    <section className="vg-page page-contact" id="contact">
       <h1 className="text-center fg-dark wow fadeInUp">Contact</h1>
       <div className="container-fluid">
         <div className="row py-5 justify-content-center">
@@ -43,7 +43,7 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

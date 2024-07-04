@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = () => {
   return (
-    <div className="vg-page page-blog" id="project">
+    <section className="vg-page page-blog" id="project">
       <h1 className="text-center fg-dark wow fadeInUp">My Favorite Project</h1>
       <div className="container">
         <div className="row post-grid">
@@ -152,7 +152,7 @@ const Project = () => {
           </div> */}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

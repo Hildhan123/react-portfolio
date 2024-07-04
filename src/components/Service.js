@@ -2,7 +2,7 @@ import React from 'react';
 
 const Service = () => {
   return (
-    <div className="vg-page page-service" id="services">
+    <section className="vg-page page-service" id="services">
       <h1 className="text-center wow fadeInUp">Services</h1>
       <div className="container">
         <div className="row justify-content-center">
@@ -19,7 +19,7 @@ const Service = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

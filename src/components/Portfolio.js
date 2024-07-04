@@ -3,7 +3,7 @@ import React from 'react';
 function Portfolio() {
 
   return (
-    <div className="vg-page page-portfolio" id="portfolio">
+    <section className="vg-page page-portfolio" id="portfolio">
       <div className="container">
         <div className="text-center wow fadeInUp">
           <div className="badge badge-subhead">Portfolio</div>
@@ -166,7 +166,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

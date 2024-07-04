@@ -12,7 +12,7 @@ const About = () => {
   const age = calculateAge("07/15/2002");
 
   return (
-    <div className="vg-page page-about" id="about">
+    <section className="vg-page page-about" id="about">
       <div className="container py-3">
         <div className="row">
           <div className="col-md-6">
@@ -23,7 +23,7 @@ const About = () => {
           <div className="col-md-6">
             <div className="caption wow fadeInRight">
               <h2 className="fg-dark">Hildhan Fauzul Hakim</h2>
-              <p className="fg-theme fw-medium">Fresh graduated from State University of Malang</p>
+              <p className="fg-theme fw-medium">Fullstack Developer | Software Engineer | Game Developer enthusiast</p>
               <p>Take your failure for an experience. My biggest hope is to be able to study/work abroad.</p>
               <ul className="theme-list">
                 <li className="fg-dark"><b>Birth:</b> Demak, Central Java, Indonesia</li>
@@ -42,12 +42,12 @@ const About = () => {
           <div className="col-md-6">
             <h4 className="wow fadeInUp">Personal skills</h4>
             <ul className="list-group list-group-flush">
+              <li className="fg-theme fw-medium list-group-item">Hard Worker</li>
               <li className="fg-theme fw-medium list-group-item">Teamwork</li>
               <li className="fg-theme fw-medium list-group-item">Communication</li>
               <li className="fg-theme fw-medium list-group-item">Willingness to learn</li>
               <li className="fg-theme fw-medium list-group-item">Flexibility</li>
               <li className="fg-theme fw-medium list-group-item">Adaptability</li>
-              <li className="fg-theme fw-medium list-group-item">Critical thinking</li>
               <li className="fg-theme fw-medium list-group-item">Creativity</li>
             </ul>
           </div>
@@ -86,6 +86,7 @@ const About = () => {
                     <span className="badge badge-pill bg-theme text-white">C++</span>
                     <span className="badge badge-pill bg-theme text-white">Java</span>
                     <span className="badge badge-pill bg-theme text-white">Python</span>
+                    <span className="badge badge-pill bg-theme text-white">Typescript</span>
                 </div>
             </div>
             <div className="col-md-11 ">
@@ -125,9 +126,9 @@ const About = () => {
               <li>
                 <div className="title"> Jul 2020 - Jan 2024</div>
                 <div className="details">
-                  <h5>Information Technology (IT)</h5>
+                  <h5>Information Technology (IT) / Computer Science</h5>
                   <small className="fg-theme">State University of Malang (UM)</small>
-                  <p>The study or use of systems (especially computers and telecommunications) for storing, retrieving, and sending information (Wiki).
+                  <p>I am very active in University. I participate in competitions, organizations, projects, freelance and startup work. I have IT experience in full Stack Engineer and Game Programming. My GPA is 3.85 out of 4.00.
                     <br/>Many my project was from this study. <a href="#portfolio" className="fg-theme">See below</a>
                   </p>
                 </div>
@@ -220,7 +221,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
