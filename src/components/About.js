@@ -94,6 +94,8 @@ const About = () => {
                 <div className="progress-wrapper wow fadeInUp justify-content-around text-center">
                   <span className="badge badge-pill bg-theme text-white">Node.js</span>
                   <span className="badge badge-pill bg-theme text-white">React</span>
+                  <span className="badge badge-pill bg-theme text-white">Next.js</span>
+                  <span className="badge badge-pill bg-theme text-white">tRPC</span>
                   <span className="badge badge-pill bg-theme text-white">Laravel</span>
                   <span className="badge badge-pill bg-theme text-white">Wordpress</span>
                   <span className="badge badge-pill bg-theme text-white">SEO</span>
@@ -108,11 +110,12 @@ const About = () => {
                   <span className="badge badge-pill bg-theme text-white">Git</span>
                   <span className="badge badge-pill bg-theme text-white">Rest Api</span>
                   <span className="badge badge-pill bg-theme text-white">Cloud Computing</span>
+                  <span className="badge badge-pill bg-theme text-white">Google Cloud Platform (GCP)</span>
+                  <span className="badge badge-pill bg-theme text-white">Amazon Web Services (AWS)</span>
                   <span className="badge badge-pill bg-theme text-white">Cloud Engineer</span>
                   <span className="badge badge-pill bg-theme text-white">Flutter</span>
                   <span className="badge badge-pill bg-theme text-white">Unity (Game Engine)</span>
                   <span className="badge badge-pill bg-theme text-white">GDevelop (Game Engine)</span>
-                  <span className="badge badge-pill bg-theme text-white">Microsoft (Word, PPT, Excel)</span>
                   <span className="badge badge-pill bg-theme text-white">Video Editing</span>
               </div>
             </div>
@@ -166,7 +169,15 @@ const About = () => {
             <h2 className="fg-dark">Experience</h2>
             <ul className="timeline mt-4 pr-md-5">
               <li>
-                <div className="title">Feb 2024 - present</div>
+                <div className="title">Aug 2024 - present</div>
+                <div className="details">
+                  <h5>Engineer</h5>
+                  <small className="fg-theme">Expact Inc.</small>
+                  <p>Remote engineer at Expact Inc. Shizuoka, Japan. Here I learn many things like AWS, trpc, Next.js, and even Japanese.</p>
+                </div>
+              </li>
+              <li>
+                <div className="title">Feb 2024 - Aug 2024</div>
                 <div className="details">
                   <h5>Programming & Coding Mentor (Part-time)</h5>
                   <small className="fg-theme">Timedoor Academy</small>
@@ -196,14 +207,6 @@ const About = () => {
                   <small className="fg-theme">Melijo.id</small>
                   <p>Melijo.id is my team start up. In here i work as Chief Technology Officer(CTO) who take care of various technologies
                   </p>
-                </div>
-              </li>
-              <li>
-                <div className="title">Jun 2020 - present</div>
-                <div className="details">
-                  <h5>Blogging</h5>
-                  <small className="fg-theme">Lingkuptekno.com</small>
-                  <p>Founder at <a href="http://www.lingkuptekno.com" className="fg-theme">lingkuptekno.com</a>. Have income from Google Adsense.</p>
                 </div>
               </li>
               <li>
