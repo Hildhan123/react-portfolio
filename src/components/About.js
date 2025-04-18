@@ -185,7 +185,7 @@ const About = () => {
                 </div>
               </li>
               <li>
-                <div className="title">Jul 2023 - present</div>
+                <div className="title">Jul 2023 - Jul 2024</div>
                 <div className="details">
                   <h5>Chief Data Officer (Remote)</h5>
                   <small className="fg-theme">Herbify</small>
