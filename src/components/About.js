@@ -27,7 +27,7 @@ const About = () => {
               <p>Take your failure for an experience. My biggest hope is to be able to study/work abroad.</p>
               <ul className="theme-list">
                 <li className="fg-dark"><b>Birth:</b> Demak, Central Java, Indonesia</li>
-                <li className="fg-dark"><b>Lives In:</b> Demak, Central Java, Indonesia</li>
+                <li className="fg-dark"><b>Lives In:</b> Nishijin, Sawara ward, Fukuoka, Japan</li>
                 <li className="fg-dark"><b>Age:</b> {age}</li>
                 <li className="fg-dark"><b>Gender:</b> Male</li>
                 <li className="fg-dark"><b>Passion:</b> Passion with things related to the technology and website</li>
@@ -52,7 +52,7 @@ const About = () => {
             </ul>
           </div>
           <div className="col-md-6">
-            <h4 className="wow fadeInUp">Prefered Languange</h4>
+            <h4 className="wow fadeInUp">Prefered language</h4>
             <div className="progress-wrapper wow fadeInUp">
               <span className="caption">Bahasa Indonesia  </span><img src="https://img.icons8.com/color/20/000000/indonesia.png"/>
               <div className="progress">
@@ -127,6 +127,15 @@ const About = () => {
             <h2 className="fg-dark">Education</h2>
             <ul className="timeline mt-4 pr-md-5">
               <li>
+                <div className="title"> Apr 2025 - Mar 2026</div>
+                <div className="details">
+                  <h5>Japanese Language Course</h5>
+                  <small className="fg-theme">Kyushu Eisu Gakkan</small>
+                  <p>Enroll japanese language course and expected to get N1 level to work.
+                  </p>
+                </div>
+              </li>
+              <li>
                 <div className="title"> Jul 2020 - Jan 2024</div>
                 <div className="details">
                   <h5>Information Technology (IT) / Computer Science</h5>
@@ -181,7 +190,7 @@ const About = () => {
                 <div className="details">
                   <h5>Programming & Coding Mentor (Part-time)</h5>
                   <small className="fg-theme">Timedoor Academy</small>
-                  <p>Mentoring kids and teens for programming and coding languange such as javascript, python, AI, game programming, AR/VR, etc</p>
+                  <p>Mentoring kids and teens for programming and coding language such as javascript, python, AI, game programming, AR/VR, etc</p>
                 </div>
               </li>
               <li>
