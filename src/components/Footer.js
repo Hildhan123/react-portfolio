@@ -10,7 +10,7 @@ const Footer = () => {
                         <div className="footer-info">
                             <p>Where to find me</p>
                             <hr className="divider" />
-                            <p className="fs-large fg-white">Griya Bhakti Praja Blok D-13, Mangunjiwan, Demak, Central Java, Indonesia</p>
+                            <p className="fs-large fg-white">Nishijin, Sawara ward, Fukuoka, Japan</p>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-3 py-3">
