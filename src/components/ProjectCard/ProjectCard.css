@@ -55,13 +55,23 @@
   margin-right: 0.3rem;
 }
 
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* ini penting biar logo selalu dibawah */
+  height: 100%; /* biar sama semua tinggi */
+}
+
 .repo-description {
-  word-wrap: break-word;
+  
   text-align: left;
-  display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
+  flex-grow: 1;
+  max-height: none; 
+  margin-bottom: 1rem; 
+  text-overflow: initial;
+  white-space: normal;
+  display: block;
 }
 
 .repo-details {

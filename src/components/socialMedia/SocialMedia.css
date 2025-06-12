@@ -87,6 +87,26 @@
   box-shadow: 0 5px 15px #e4405f;
 }
 
+.facebook i {
+  background-color: #1877f2;
+  transition: all 0.2s ease-in-out;
+}
+
+.facebook i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #1877f2;
+}
+
+.youtube i {
+  background-color: #ff0000;
+  transition: all 0.2s ease-in-out;
+}
+
+.youtube i:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px #ff0000;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
